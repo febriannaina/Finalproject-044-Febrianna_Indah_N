@@ -11,6 +11,7 @@ h1 {
 /* About section */
 h2 {
   font-family: "Prata", serif;
+  text-align: center;
 }
 #about {
   background-color: #f8ea8c;
@@ -161,7 +162,23 @@ h4 {
 
 /* SkillSection */
 #skill {
-  border: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Interest */
+#interest {
+  padding: 60px;
+}
+.card-text {
+  text-align: center;
+}
+
+/* AWARDS Section */
+#award {
+  background-color: black;
+  color: white;
+  padding: 15px;
 }
 
 /*Form Contact*/
@@ -172,8 +189,8 @@ h4 {
 }
 input[type="submit"] {
   width: 100%;
-  background-color: green;
-  border-color: green;
+  background-color: #e1c340;
+  border-color: #e1c340;
   border-width: 1px;
   border-radius: 5px;
   color: white;
@@ -183,10 +200,8 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: white;
-  color: green;
+  color: #e1c340;
 }
-
-/* Skill Section */
 
 /* Footer Section */
 footer {
@@ -205,7 +220,6 @@ h4 {
 /* The actual timeline (the vertical ruler) */
 .main-TL-4 {
   position: relative;
-  width: 70%;
 }
 
 /* The actual timeline (the vertical ruler) */
